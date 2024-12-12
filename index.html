@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.4.0/remixicon.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Des données aux Décisions | Dominique Degbey</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-logo">
+            <a href="#">
+                <img src="assets/images/D1.png">
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li class="link"><a href="index.html">Acceuil</a></li>
+            <li id="link1" class="link"><a href="/pages/about.html">A propos de moi</a></li>
+            <li id="link2" class="link"><a href="index.html">Projets</a></li>
+        </ul>
+        <button class="btn" onclick="window.location.href='mailto:dominiquekayeon@gmail.com'">Contactez moi</button>
+    </nav>
+
+    <header class="container_ind">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <h1>Bienvenue, Je suis
+                <span>Dominique</span>
+                , specialisée en Data Science &amp; Business Intelligence </h1>
+            <p>
+                Passionnée de science des données avec un niveau bac+4 en Data Science and Business Intelligence.
+                À travers ce portfolio, je présente mes projets personnels où j'explore l'analyse de données, le machine learning, et la visualisation de données. Mon objectif est de transformer les données en informations exploitables pour soutenir des décisions éclairées. 
+                Découvrez mes travaux et les solutions que j'ai développées au fil de mon parcours dans ce domaine fascinant.
+
+            </p>
+        </div>
+        <div class="image">
+            <img src="">
+        </div>
+    </header>
+
+    <section class="container1">
+        <h2 class="header">A PROPOS DE MOI</h2>
+        <div class="features1">
+            <div class="card1">
+                <span><i class="ri-user-line"></i></span>
+                <h4>A propos</h4>
+                <p>
+                   Apprenez plus sur moi, mes passions et mes interêts.
+                </p>
+                <a href="/pages/about.html">Apprendre plus <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="card1">
+                <span><i class="ri-shirt-fill"></i></span>
+                <h4>Experience</h4>
+                <p>
+                    Découvrez toutes mes experiences de travail passées.
+                </p>
+                <a href="pages/experience.html">Aprrendre plus <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="card1">
+                <span><i class="ri-graduation-cap-fill"></i></span>
+                <h4>Education</h4>
+                <p>
+                    Decouvrez plus sur mon parcours academique.
+                </p>
+                <a href="pages/education.html">Apprendre plus <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="card1">
+                <span><i class="ri-book-open-fill"></i></span>
+                <h4>Licenses & Certifications</h4>
+                <p>
+                    Certifications/licences que j'ai acquis.
+                </p>
+                <a href="pages/certif.html">Apprendre plus <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2 class="header">PROJECTS</h2>
+        <p class="sub-header">
+            Ce sont ici tout les projets que j'ai eu a faire  en partant de l'analyse de données et visualisation
+             aux modèles de Machine Learning et Deep Learning.
+        </p>
+        <div class="pricing">
+            <div class="card">
+                <div class="content">
+                    <h4>Machine Learning</h4>
+                    <h3>Construire et deployer un modèle pour la prediction d'AVC</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        <b>Objectif:</b> Predire a partir de données si une personne est succeptible d'avoir un AVC en fonction de certains parametres.
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        <b>Techniques Utilisées:</b> chargement et Preparation des données(imputation, encodage, réequilibrage de données), splitting et construction des modeles de predicition(linear regression, random forest, naive bayes, svm linear, svm model rbf), recherche et choix des meilleurs hyperparametres, collecte des metriques, evaluation et selection du model de prediction, deployement avec plumber et vetiver.
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        <b>outils/Librairies:</b> R, Tidymodels, tidyverse, smoteFamily, Rsample, Caret, ggplot2, corrplot, dplyr, vetiver, plumber.
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        <b>Impact:</b> Le modèle peut aider à identifier rapidement les personnes à risque avec precision , permettant des interventions médicales précoces.
+                    </p>
+                </div>
+                <button class="btn" onclick="window.location.href='https://github.com/kayeon27/Stroke-pred/blob/main/Codes/Build-deploy-stroke-prediction-model-R.Rmd'">Voir Projet</button>
+
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h4>Scrapping & analysis</h4>
+                    <h3>Scraper et analyser les offres d'emploi de data analyst avec Python</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        <b>Objectif:</b> Collecter des données d’offres d’emploi de manière automatisée à partir d’une plateforme en ligne.
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        <b>Techniques Utilisées:</b> fonction d'initialisation du navigateur(webdriver), recuperation de la page et analyse du contenu html(soup), extraction et enregistrement des données.
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        <b>outils/Librairies:</b> Python, Selenium, webdriver, time, csv, ChromeDriverManager, quote_plus.
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        <b>Impact:</b> Receuillir les informations sur des offres d'emploi en vue de fournir plus rapidement des offres d'emploi pertinentes aux clients.
+                    </p>
+                </div>
+                <button class="btn" onclick="window.location.href='https://github.com/kayeon27/Scrapping_job_requirement-/blob/main/.ipynb_checkpoints/job-requirement%20analysis-checkpoint.ipynb'">Voir Projet</button>
+
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h4>Analyse SQL</h4>
+                    <h3>Analyse de données d'une base de données de modèles de voitures avec MySQL Workbench</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        <b>Objectif:</b> Analyser des données dans le but de soutenir les décisions commerciales liées aux stocks qui conduisent à la fermeture d'une installation de stockage.
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        <b>Techniques Utilisées:</b>aperçu des données (statistiques), inventaires des quantités, jointures.
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        <b>outils/Librairies:</b> SQL, MySQL Worbench.
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        <b>Impact:</b>  Optimisation de la gestion de stock permettant une réduction des coûts de stockage et une amélioration des delais de livraison.
+                    </p>
+                </div>
+                <button class="btn" onclick="window.location.href='https://github.com/kayeon27/analyze-model-car-database-sql/blob/main/sql%20script.sql'">Voir Projet</button>
+
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h4>Machine learning</h4>
+                    <h3>Detection de fraude a la carte de credit a partir des methodes de classification</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        <b>Objectif:</b> explorer les différentes approches de classification utilisées dans la détection de fraude à la carte de crédit.
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        <b>Techniques Utilisées:</b>preparations de données, visualisations, réequilibrage des données,  divisions et entrainement des données avec les modeles de classification, definitions d'hyperparamtres.
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        <b>outils/Librairies:</b> Python, pandas, numpy, matplotlib, seaborn, sklearn.
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        <b>Impact:</b>  Permettre aux institutions financières de détecter et prévenir les transactions frauduleuses en temps réel, réduisant ainsi les pertes financières liées à la fraude.
+                    </p>
+                </div>
+                <button class="btn" onclick="window.location.href='https://github.com/kayeon27/fraud-detection/blob/main/Detection_de_fraude.ipynb'">Voir Projet</button>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="container">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <div class="column">
+            <div class="logo">
+                <img src="">
+            </div>
+            <p>
+                Sentez vous libre de me contacter et de vous connecter a mon compte LinkedIn !<br>
+                <i class="ri-phone-fill"></i>: +212 679995883 <br>
+                <i class="ri-mail-fill"></i>:Dominiquekayeon@gmail.com
+            </p>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/kayeon-dominique-degbey-10500a1a4/"><i class="ri-linkedin-box-fill"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
